@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>grammar</type>
+	<!--The list of productions.-->
+	<production>
+		<left>S</left>
+		<right>L</right>
+	</production>
+	<production>
+		<left>L</left>
+		<right>aM</right>
+	</production>
+	<production>
+		<left>L</left>
+		<right>bM</right>
+	</production>
+	<production>
+		<left>L</left>
+		<right>cM</right>
+	</production>
+	<production>
+		<left>M</left>
+		<right>cN</right>
+	</production>
+	<production>
+		<left>N</left>
+		<right>aO</right>
+	</production>
+	<production>
+		<left>N</left>
+		<right>bO</right>
+	</production>
+	<production>
+		<left>N</left>
+		<right>cO</right>
+	</production>
+	<production>
+		<left>O</left>
+		<right>cL</right>
+	</production>
+	<production>
+		<left>L</left>
+		<right/>
+	</production>
+</structure>
