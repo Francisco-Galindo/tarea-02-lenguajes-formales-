@@ -3,59 +3,19 @@
 	<!--The list of productions.-->
 	<production>
 		<left>S</left>
-		<right>X</right>
+		<right>ABS</right>
 	</production>
 	<production>
 		<left>S</left>
-		<right>Y</right>
+		<right>P</right>
 	</production>
 	<production>
-		<left>X</left>
-		<right>ABB</right>
+		<left>AB</left>
+		<right>BA</right>
 	</production>
 	<production>
-		<left>X</left>
-		<right>BAB</right>
-	</production>
-	<production>
-		<left>X</left>
-		<right>BBA</right>
-	</production>
-	<production>
-		<left>A</left>
-		<right>ABA</right>
-	</production>
-	<production>
-		<left>A</left>
-		<right>AAB</right>
-	</production>
-	<production>
-		<left>A</left>
-		<right>BAA</right>
-	</production>
-	<production>
-		<left>B</left>
-		<right>BBA</right>
-	</production>
-	<production>
-		<left>B</left>
-		<right>BAB</right>
-	</production>
-	<production>
-		<left>B</left>
-		<right>ABB</right>
-	</production>
-	<production>
-		<left>Y</left>
-		<right>BAA</right>
-	</production>
-	<production>
-		<left>Y</left>
-		<right>ABA</right>
-	</production>
-	<production>
-		<left>Y</left>
-		<right>AAB</right>
+		<left>BA</left>
+		<right>AB</right>
 	</production>
 	<production>
 		<left>A</left>
@@ -66,11 +26,35 @@
 		<right>b</right>
 	</production>
 	<production>
-		<left>S</left>
-		<right>A</right>
+		<left>aP</left>
+		<right>Pa</right>
 	</production>
 	<production>
-		<left>S</left>
-		<right>B</right>
+		<left>bP</left>
+		<right>Pb</right>
+	</production>
+	<production>
+		<left>P</left>
+		<right>aX</right>
+	</production>
+	<production>
+		<left>P</left>
+		<right>bY</right>
+	</production>
+	<production>
+		<left>X</left>
+		<right>aX</right>
+	</production>
+	<production>
+		<left>X</left>
+		<right/>
+	</production>
+	<production>
+		<left>Y</left>
+		<right>bY</right>
+	</production>
+	<production>
+		<left>Y</left>
+		<right/>
 	</production>
 </structure>

@@ -3,34 +3,58 @@
 	<!--The list of productions.-->
 	<production>
 		<left>S</left>
-		<right>DaF</right>
+		<right>CDGPF</right>
 	</production>
 	<production>
-		<left>S</left>
-		<right>a</right>
+		<left>G</left>
+		<right>HG</right>
 	</production>
 	<production>
-		<left>Da</left>
-		<right>DDa</right>
+		<left>G</left>
+		<right/>
 	</production>
 	<production>
-		<left>Da</left>
-		<right>aY</right>
+		<left>HP</left>
+		<right>PPH</right>
 	</production>
 	<production>
-		<left>aY</left>
-		<right>aaY</right>
-	</production>
-	<production>
-		<left>YF</left>
+		<left>HF</left>
 		<right>F</right>
 	</production>
 	<production>
-		<left>Ya</left>
-		<right>aY</right>
+		<left>DP</left>
+		<right>ABD</right>
+	</production>
+	<production>
+		<left>DF</left>
+		<right>F</right>
 	</production>
 	<production>
 		<left>F</left>
+		<right/>
+	</production>
+	<production>
+		<left>AB</left>
+		<right>BA</right>
+	</production>
+	<production>
+		<left>BA</left>
+		<right>AB</right>
+	</production>
+	<production>
+		<left>A</left>
+		<right>aC</right>
+	</production>
+	<production>
+		<left>B</left>
+		<right>bC</right>
+	</production>
+	<production>
+		<left>C</left>
+		<right>cC</right>
+	</production>
+	<production>
+		<left>C</left>
 		<right/>
 	</production>
 </structure>
