@@ -83,7 +83,7 @@
 	</production>
 	<production>
 		<left>L</left>
-		<right>IL</right>
+		<right>aL</right>
 	</production>
 	<production>
 		<left>L</left>
@@ -115,11 +115,11 @@
 	</production>
 	<production>
 		<left>S</left>
-		<right>P;</right>
+		<right>P</right>
 	</production>
 	<production>
 		<left>P</left>
-		<right>imprime C</right>
+		<right>imprime C;</right>
 	</production>
 	<production>
 		<left>S</left>
@@ -140,5 +140,9 @@
 	<production>
 		<left>N</left>
 		<right>3</right>
+	</production>
+	<production>
+		<left>L</left>
+		<right>bL</right>
 	</production>
 </structure>
